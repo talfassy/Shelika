@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgournd1"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:outlineSpotShadowColor="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+
+                android:layout_marginRight="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/headlineAboutUs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textStyle="bold"
+                    android:paddingTop="20dp"
+
+                    android:layout_below="@+id/LinearLayout01"
+                    android:text="שליקה - המרכז הישראלי לאושר וטוב לב"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat1_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:text="שֶׁלִיקֶה הוא המקום לכל מי שמאמין בטוב לב ותופס את עצמו כאחד כזה ולכל אלו שרוצים להיות מאושרים (ביננו, מי לא ?!)."
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:paddingTop="20dp"
+
+                    android:layout_below="@+id/headlineAboutUs"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat2_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="החזון של שֶׁלִיקֶה הוא יצירת קהילת ישראלים שמאמינים ומקדמים טוב לב על ידי נתינה ועשייה חברתית, ומייצרים אושר מעשי בחייהם האישיים ובחיי היומיום של הקהילה והחברה."
+                    android:layoutDirection="rtl"
+                    android:paddingTop="20dp"
+                    android:layout_below="@+id/prat1_about"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat3_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="מה משמעות השם שליקה?"
+                    android:textStyle="bold"
+                    android:paddingTop="20dp"
+
+                    android:layout_below="@+id/prat2_about"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat4_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="שֶׁלִיקֶה הוא שילוב של שתי מלים : שלי + לִיקֶּה "
+                    android:paddingTop="20dp"
+
+                    android:layout_below="@+id/prat3_about"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat5_about_shelly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="שלי היא אישה מלאך, שבחייה הקצרים עשתה כל כך הרבה טוב לכל כך הרבה אנשים, ואדוות טוב הלב שלה חייבות להמשך ולהמשך..."
+                    android:paddingTop="20dp"
+
+                    android:layout_below="@+id/prat4_about"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat6_about_lika"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="ליקה הוא אושר בשפה הדנית, פשוט אושר... (למה דנית ? כי הדנים מובילים בדירוג האושר העולמי, אז החלטנו ללמוד ולאמץ...)."
+                    android:paddingTop="20dp"
+                    android:layout_below="@+id/prat5_about_shelly"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat7_about_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="ביחד זה שֶׁלִיקֶה - המרכז הישראלי לאושר וטוב לב."
+                    android:paddingTop="20dp"
+                    android:layout_below="@+id/prat6_about_lika"
+                    android:textColor="#6666ff"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat8_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:text="הערכים שמובילים את העשייה של שֶׁלִיקֶה :"
+                    android:paddingTop="20dp"
+                    android:layout_below="@+id/prat7_about_2"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat9_about_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="מנהיגות, נדיבות, אהבת האדם, מעשיות, שמחה"
+                    android:paddingTop="20dp"
+                    android:layout_below="@+id/prat8_about"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat10_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:paddingTop="20dp"
+                    android:layout_below="@+id/prat9_about_five"
+                    android:text="כל אחד מהחמישה הוא עולם שלם של משמעויות ואמות מידה, אך המשותף לכולם הוא ההיבט הביצועי שלהם – שֶׁלִיקֶה לא רק מדבר בסיסמאות ערכים ריקות אלא עשייה של ערכים (לא ערך כאידיאל נשאף, אלא ערך במובן ה- Doing)."
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat11_aboute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_below="@+id/prat10_about"
+                    android:textColor="#6666ff"
+                    android:text="שֶׁלִיקֶה פועל ב- 3 זירות פעולה מרכזיות : חינוך, יזמות ומחקר."
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat12_aboute_last"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:text="אז, אם אתם טובי לב ומאמינים שמגיע לכם לחיות באושר, זה כל מה שצריך כדי לצאת אתנו לדרך. הצטרפו אלינו ..."
+                    android:paddingTop="30dp"
+                    android:layout_below="@+id/prat11_aboute"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp" />
+
+
+                <Button
+                    android:id="@+id/returnBotton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:background="@drawable/round_button"
+                    android:hint="חזרה לדף הראשי"
+                    android:paddingTop="40dp"
+                    android:padding="10dp"
+                    android:layout_below="@+id/prat12_aboute_last"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

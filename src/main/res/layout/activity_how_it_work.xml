@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/mainLayout_howitwork"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgournd1"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:outlineSpotShadowColor="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+
+                android:layout_marginRight="0dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/headlineHOW"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/LinearLayout01"
+                    android:textStyle="bold"
+
+                    android:text="שליקה -איך זה עובד ?"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#000000"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/prat1_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="המטרה שלנו היא ליצור קהילה שהעיסוק שלה הוא בטוב, נתינה ואושר."
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_below="@+id/headlineHOW"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textMultiLine"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat2_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="האפליקציה מאפשרת לכם לצפות בהצעות לפעילויות של התנדבות \ נתינה \ הדרכה ועוד."
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_below="@+id/prat1_how"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat3_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/prat2_how"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="חלק מהפעילויות אנחנו מפרסמים וחלקן מפורסמות על ידכם."
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat4_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/prat3_how"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="כל אחד יכול לצפות בהצעות הקיימות ולבחור אם הוא רוצה לקחת חלק מהפעילות. "
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="כל אחד יכול לצפות בהצעות הקיימות ולבחור אם הוא רוצה לקחת חלק מהפעילות. "
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    />
+
+                <TextView
+                    android:id="@+id/prat5_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/prat4_how"
+                    android:layout_gravity="center"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="כמו כן כל אחד יכול להוסיף פעילות חדשה למערכת שתהיה זמינה לכולם."
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat6_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/prat5_how"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="לא מדובר בדברים מסובכים או שדורשים כסף רב אלא יותר בכוונה האמיתית של פיזור האושר והנתינה בעולם ומציאת האושר בדברים הקטנים וכך נבנה יחד שרשת של מעשים טובים."
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat7_title_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/prat6_how"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="בחירת פעילות מתוך רשימת ההצעות –"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat7_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/prat7_title_how"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text=""
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat8_title_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/prat7_how"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text="הוספת הצעה חדשה-"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/prat8_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/prat8_title_how"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:text=""
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+
+
+                <Button
+                    android:id="@+id/watch_btn_how"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_button"
+                    android:layout_below="@+id/prat8_how"
+                    android:layout_marginTop="27dp"
+                    android:hint="צפייה בהצעות קיימות"
+                    android:textColor="#383838"
+                    android:textSize="20dp"
+                    />
+
+                <TextView
+                    android:id="@+id/rules"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/watch_btn_how"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="צפייה בתקנון"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

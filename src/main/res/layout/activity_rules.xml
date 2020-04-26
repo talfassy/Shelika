@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgournd1"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    tools:context=".Rules">
+
+
+    <ScrollView
+        android:id="@+id/ScrollView02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:outlineSpotShadowColor="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/headlineRULE"
+                    android:layout_width="400dp"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:text="תקנון שימוש באפליקציה"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:layout_below="@+id/LinearLayout02"
+                    android:textColor="#000000"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/part1_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="כללי"
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/headlineRULE"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part1_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/part1_title"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/part2_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="תנאי שימוש "
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part1_description"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part2_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/part2_title"
+                    android:textColor="#000000"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/part3_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="הגישה לאפליקציה"
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part2_description"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part3_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part3_title"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/part4_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="שימוש במידע שמסרת "
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part3_description"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part4_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part4_title"
+                    android:textSize="15dp" />
+
+
+                <TextView
+                    android:id="@+id/part5_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="סוג התכנים באפליקציה "
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part4_description"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part5_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part5_title"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part6_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="זמינות תכנים לאפליקציה "
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part5_description"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part6_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part6_title"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part7_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="הזנת תכנים לאפליקציה "
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part6_description"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part7_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part7_title"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part8_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="זכויות בעלות וזכויות קניין "
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part7_description"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part8_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part8_title"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part9_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="שימוש בתכני האפליקציה "
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part8_description"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part9_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part9_title"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part10_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="פטור מאחריות  "
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/part9_description"
+                    android:textColor="#000000"
+
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part10_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part10_title"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part11_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="שיפוי  "
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part10_description"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part11_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part11_title"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part12_title"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="שינויים בתנאי שימוש   "
+                    android:padding="8dp"
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part11_description"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/part12_description"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:text=""
+                    android:layoutDirection="rtl"
+                    android:textDirection="rtl"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000000"
+                    android:layout_below="@+id/part12_title"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

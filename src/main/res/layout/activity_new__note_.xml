@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgournd1"
+    android:id="@+id/mainLayout_new"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:padding="16dp"
+    tools:context=".new_Note_Activity">
+
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/mainLayout_new"
+        android:text="אנא מלאו את פרטי ההצעה שלכם. שימו לב שאתם מזינים את הפרטים לפי הפורמט ורושמים את מספר הטלפון המדויק כי רק כך נוכל ליצור קשר "
+        />
+
+    <EditText
+        android:id="@+id/add_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="אנא הכנס כותרת"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_marginTop="10dp"
+        android:maxLength="15"
+        android:layout_below="@+id/explain"
+        android:inputType="textMultiLine"
+        />
+
+    <TextView
+        android:id="@+id/add_date"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="#00FFFFFF"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:text="timor"
+        android:layout_below="@+id/add_title"
+        android:inputType="date"
+        />
+
+    <EditText
+        android:id="@+id/add_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="אנא הכנס תיאור "
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_below="@+id/add_title"
+        android:inputType="textMultiLine"
+        />
+
+    >
+
+    <EditText
+        android:id="@+id/add_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_below="@+id/add_description"
+        android:hint="צפון/ חיפה/ מרכז/ ירושלים/דרום/אילת" />
+
+    <EditText
+        android:id="@+id/add_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="050-1234567"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_below="@+id/add_address"
+        android:inputType="phone"
+        />
+
+    <RadioButton
+        android:layout_marginTop="15dp"
+        android:id="@+id/radioBtn"
+        android:text="אני מאשר פרסום הפרטים שמסרתי לעיל בפרט מספר הטלפון שלי."
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_phone"
+        />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:layout_below="@+id/radioBtn"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button"
+        android:textSize="18dp"
+        app:cornerRadius="68dp"
+        android:layout_height="wrap_content"
+        android:text="הוסף לרשימת ההצעות"/>
+
+
+</LinearLayout>
+
+
